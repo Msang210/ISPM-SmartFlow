@@ -15,16 +15,12 @@
 
 ---
 
-## 🎬 Truy cập nhanh — Demo & Tài liệu
+## 🎬 Truy cập nhanh 
 
 | 🔗 Link | 📝 Mô tả |
 |---|---|
 | 🌐 **[Confluence Project Hub](https://sangminhnguyen210.atlassian.net/wiki/spaces/SW/)** | Toàn bộ tài liệu dự án theo 8 chương PMBOK |
-| 📊 **[Jira Board](https://sangminhnguyen210.atlassian.net/jira/software/projects/SF/boards)** | Quản lý công việc thực tế — Epics & Tasks |
-| 🎬 **[Video Demo](#)** | Demo hệ thống 4–5 phút *(sẽ cập nhật)* |
-| 🚀 **[Live System](#)** | Hệ thống đang chạy online *(sẽ cập nhật)* |
-
-> 📌 **Tài khoản demo:** `admin@smartflow.demo` / `SmartFlow@2025` *(cập nhật khi deploy)*
+| 📊 **[Jira Board](https://sangminhnguyen210.atlassian.net/jira/software/projects/SF/boards)** | Quản lý công việc thực tế — Epics & Tasks 
 
 ---
 
@@ -87,10 +83,10 @@ Khu vực **Buôn Triết, Lắk, Đắk Lắk** sản xuất các giống lúa 
 
 | # | Thành viên | Vai trò | Trách nhiệm chính |
 |---|---|---|---|
-| 1 | **Nguyễn Trường Sang** | Project Manager / System Analyst | PM tổng thể, C1+C2+C4+C8 |
-| 2 | **Thiên** | Business Analyst / QC | C2 yêu cầu, C6 truyền thông, C7 |
+| 1 | **Nguyễn Minh Sang** | Project Manager / System Analyst | PM tổng thể, C1+C2+C4+C8 |
+| 2 | **Đỗ Duy Thiên** | Business Analyst / QC | C2 yêu cầu, C6 truyền thông, C7 |
 | 3 | **Tống Bình Minh** | UI/UX Designer / Frontend | C5 nhân lực, design system |
-| 4 | **Nam** | Senior Backend Developer | C3 lịch trình, database, API |
+| 4 | **Đặng Phương Nam** | Senior Backend Developer | C3 lịch trình, database, API |
 | 5 | **Trần Anh Duy** | Junior Backend Dev / DevOps | C6 rủi ro, deployment |
 
 ---
@@ -112,14 +108,6 @@ SmartFlow-ITS344/
 ├── assets/
 │   ├── diagrams/              ← BPMN, ERD, Architecture, PDM...
 │   └── mockups/               ← Wireframes & UI mockups
-├── src/                       ← Source code Laravel
-│   ├── app/
-│   ├── database/
-│   │   ├── migrations/
-│   │   └── seeders/
-│   └── ...
-├── meeting_minutes/           ← Biên bản họp nhóm
-└── docker-compose.yml         ← Chạy local với Docker
 ```
 
 ---
@@ -158,52 +146,6 @@ SmartFlow-ITS344/
 <td><img src="assets/diagrams/Bieu-do-Gantt.png" alt="Gantt" width="100%"/></td>
 </tr>
 </table>
-
----
-
-## 🚀 Cài đặt Local (Getting Started)
-
-### Yêu cầu
-- PHP 8.2+ & Composer
-- MySQL 8.0
-- Node.js 18+ & npm
-
-### Các bước
-
-```bash
-# 1. Clone repository
-git clone https://github.com/[username]/SmartFlow-ITS344.git
-cd SmartFlow-ITS344/src
-
-# 2. Cài đặt dependencies
-composer install
-npm install && npm run build
-
-# 3. Cấu hình môi trường
-cp .env.example .env
-php artisan key:generate
-
-# 4. Cấu hình database trong .env
-# DB_DATABASE=smartflow
-# DB_USERNAME=root
-# DB_PASSWORD=
-
-# 5. Migrate và seed dữ liệu mẫu
-php artisan migrate --seed
-
-# 6. Chạy server
-php artisan serve
-```
-
-Truy cập: `http://localhost:8000`
-
-### Tài khoản mặc định (sau khi seed)
-
-| Role | Email | Password |
-|---|---|---|
-| Quản lý HTX | `admin@smartflow.demo` | `SmartFlow@2025` |
-| Thủ kho | `kho@smartflow.demo` | `SmartFlow@2025` |
-| Nông hộ | `nongho@smartflow.demo` | `SmartFlow@2025` |
 
 ---
 
