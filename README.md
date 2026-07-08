@@ -5,7 +5,7 @@
 **Hệ thống Quản lý Chuỗi cung ứng Nông sản tích hợp Truy xuất nguồn gốc QR**
 
 [![Môn học](https://img.shields.io/badge/ITS344-Quản%20trị%20Dự%20án%20HTTT-0052CC?style=for-the-badge&logo=atlassian)](https://sangminhnguyen210.atlassian.net/wiki/spaces/SW/)
-[![Jira](https://img.shields.io/badge/Jira-SF%20Board-0052CC?style=for-the-badge&logo=jira)](https://sangminhnguyen210.atlassian.net/jira/software/projects/SF/boards)
+[![Jira](https://img.shields.io/badge/Jira-SF%20Board-0052CC?style=for-the-badge&logo=jira)](https://sangminhnguyen210.atlassian.net/jira/software/projects/SF/list)
 [![Confluence](https://img.shields.io/badge/Confluence-Wiki-172B4D?style=for-the-badge&logo=confluence)](https://sangminhnguyen210.atlassian.net/wiki/spaces/SW/)
 [![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel)](https://laravel.com)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
@@ -20,7 +20,7 @@
 | 🔗 Link | 📝 Mô tả |
 |---|---|
 | 🌐 **[Confluence Project Hub](https://sangminhnguyen210.atlassian.net/wiki/spaces/SW/)** | Toàn bộ tài liệu dự án theo 8 chương PMBOK |
-| 📊 **[Jira Board](https://sangminhnguyen210.atlassian.net/jira/software/projects/SF/boards)** | Quản lý công việc thực tế — Epics & Tasks 
+| 📊 **[Jira Board](https://sangminhnguyen210.atlassian.net/jira/software/projects/SF/list)** | Quản lý công việc thực tế — Epics & Tasks 
 
 ---
 
